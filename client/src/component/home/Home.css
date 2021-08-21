@@ -1,0 +1,29 @@
+.home {
+  border: 2px solid white;
+  width: 80vw;
+}
+
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  /* background-color: khaki; */
+}
+
+.home__form {
+  flex: 0.4;
+}
+
+.home__todos {
+  flex: 0.6;
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    border: none;
+    width: 100%;
+  }
+  .home__container {
+    display: block;
+  }
+}

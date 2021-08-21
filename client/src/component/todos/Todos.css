@@ -1,0 +1,24 @@
+.todos {
+  height: 500px;
+  padding: 10px;
+}
+
+.todos__container {
+  height: 100%;
+  overflow: auto;
+}
+
+.todos__item {
+  margin-bottom: 10px;
+}
+
+.todos__item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .todos {
+    height: unset;
+    padding-bottom: 0;
+  }
+}
